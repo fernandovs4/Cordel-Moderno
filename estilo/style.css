@@ -22,8 +22,12 @@ header{
 
 
 }
+body{
+    background-color: rgba(178, 187, 207, 0.308);
+    
+}
 
-header > h1,a, pre{
+header >p, h1,a, pre{
     color: white;
     text-decoration: none;
 }
@@ -36,6 +40,13 @@ header h1{
 
 main, pre{
     font-family: var(--font-poesia);
+    max-width: 800px;
+    background-color: white;
+    
+}
+
+main{
+    margin: auto;
 }
 
 main  pre{
